@@ -2,6 +2,7 @@
 Stream rows from DataBase table to topic Kafka via Kafka Connect (used JdbcSourceConnector)
  In MSSQL
  
+
 CREATE TABLE test
 (
     id    BIGINT IDENTITY (1,1) PRIMARY KEY NOT NULL,
