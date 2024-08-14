@@ -1,8 +1,8 @@
 # Building a Real-Time Data Pipeline with Kafka Connect, PostgreSQL, and Change Data Capture (CDC)
 Stream rows from DataBase table to topic Kafka via Kafka Connect (used JdbcSourceConnector)
  In MSSQL
- 
 
+ 
 CREATE TABLE test
 (
     id    BIGINT IDENTITY (1,1) PRIMARY KEY NOT NULL,
@@ -22,3 +22,4 @@ WHILE @i < 100000
 
 --
 select count(*) from test;
+
