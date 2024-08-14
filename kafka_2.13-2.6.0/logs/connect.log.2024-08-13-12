@@ -1,0 +1,1271 @@
+[2024-08-13 12:00:00,565] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:00,666] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:00,818] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:01,021] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:01,424] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:02,381] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:02,958] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:00:02,961] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:00:03,494] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:04,504] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:05,364] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:06,528] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:07,585] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:08,639] WARN [Producer clientId=connector-producer-mssql-connector-0] Connection to node 0 (COMP432.TAFTA.LOCAL/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient:757)
+[2024-08-13 12:00:12,963] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:00:12,965] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:00:22,979] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:00:22,980] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:00:32,981] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:00:32,983] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:00:42,984] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:00:42,987] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:00:52,989] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:00:52,990] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:01:02,991] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:01:02,993] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:01:12,994] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:01:12,995] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:01:16,238] INFO Kafka Connect stopping (org.apache.kafka.connect.runtime.Connect:67)
+[2024-08-13 12:01:16,240] INFO Stopping REST server (org.apache.kafka.connect.runtime.rest.RestServer:327)
+[2024-08-13 12:01:16,254] INFO Stopped http_8084@188b6035{HTTP/1.1,[http/1.1]}{0.0.0.0:8084} (org.eclipse.jetty.server.AbstractConnector:380)
+[2024-08-13 12:01:16,255] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:158)
+[2024-08-13 12:01:16,257] INFO REST server stopped (org.apache.kafka.connect.runtime.rest.RestServer:344)
+[2024-08-13 12:01:16,258] INFO Herder stopping (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:102)
+[2024-08-13 12:01:16,259] INFO Stopping task mssql-connector-0 (org.apache.kafka.connect.runtime.Worker:836)
+[2024-08-13 12:01:16,259] INFO Stopping JDBC source task (io.confluent.connect.jdbc.source.JdbcSourceTask:313)
+[2024-08-13 12:01:16,334] INFO Closing resources for JDBC source task (io.confluent.connect.jdbc.source.JdbcSourceTask:320)
+[2024-08-13 12:01:16,334] INFO Closing connection #1 to SqlServer (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 12:01:16,335] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:01:16,337] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:01:16,338] INFO [Producer clientId=connector-producer-mssql-connector-0] Closing the Kafka producer with timeoutMillis = 30000 ms. (org.apache.kafka.clients.producer.KafkaProducer:1189)
+[2024-08-13 12:01:16,346] INFO Stopping connector mssql-connector (org.apache.kafka.connect.runtime.Worker:387)
+[2024-08-13 12:01:16,347] INFO Scheduled shutdown for WorkerConnector{id=mssql-connector} (org.apache.kafka.connect.runtime.WorkerConnector:249)
+[2024-08-13 12:01:16,348] INFO Stopping table monitoring thread (io.confluent.connect.jdbc.JdbcSourceConnector:174)
+[2024-08-13 12:01:16,349] INFO Shutting down thread monitoring tables. (io.confluent.connect.jdbc.source.TableMonitorThread:134)
+[2024-08-13 12:01:16,350] INFO Closing connection #1 to SqlServer (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 12:01:16,351] INFO Completed shutdown for WorkerConnector{id=mssql-connector} (org.apache.kafka.connect.runtime.WorkerConnector:269)
+[2024-08-13 12:01:16,353] INFO Worker stopping (org.apache.kafka.connect.runtime.Worker:209)
+[2024-08-13 12:01:16,354] INFO Stopped FileOffsetBackingStore (org.apache.kafka.connect.storage.FileOffsetBackingStore:66)
+[2024-08-13 12:01:16,355] INFO Worker stopped (org.apache.kafka.connect.runtime.Worker:230)
+[2024-08-13 12:01:16,356] INFO Herder stopped (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:120)
+[2024-08-13 12:01:16,356] INFO Kafka Connect stopped (org.apache.kafka.connect.runtime.Connect:72)
+[2024-08-13 12:01:23,620] INFO Kafka Connect standalone worker initializing ... (org.apache.kafka.connect.cli.ConnectStandalone:69)
+[2024-08-13 12:01:23,627] INFO WorkerInfo values: 
+	jvm.args = -Xms256M, -Xmx2G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=20, -XX:InitiatingHeapOccupancyPercent=35, -XX:+ExplicitGCInvokesConcurrent, -XX:MaxInlineLevel=15, -Djava.awt.headless=true, -Dcom.sun.management.jmxremote, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -Dkafka.logs.dir=/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../logs, -Dlog4j.configuration=file:./bin/../config/connect-log4j.properties
+	jvm.spec = Ubuntu, OpenJDK 64-Bit Server VM, 11.0.24, 11.0.24+8-post-Ubuntu-1ubuntu322.04
+	jvm.classpath = /mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/activation-1.1.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/commons-cli-1.4.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-api-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-file-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-json-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jackson-module-scala_2.13-2.10.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jdbc-plugin:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-client-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-common-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jersey-server-2.28.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-streams-scala_2.13-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0-sources.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/log4j-1.2.17.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/paranamer-2.8.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/reflections-0.9.12.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/scala-collection-compat_2.13-2.1.6.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/scala-library-2.13.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/scala-reflect-2.13.2.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/mnt/c/kafka/kafka-connect-jdbc/kafka_2.13-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar
+	os.spec = Linux, amd64, 5.15.153.1-microsoft-standard-WSL2
+	os.vcpus = 12
+ (org.apache.kafka.connect.runtime.WorkerInfo:71)
+[2024-08-13 12:01:23,632] INFO Scanning for plugin classes. This might take a moment ... (org.apache.kafka.connect.cli.ConnectStandalone:78)
+[2024-08-13 12:01:23,668] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:23,801] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:23,802] INFO Added plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:23,803] INFO Added plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:23,803] INFO Added plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:23,968] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:24,001] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:24,021] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:24,090] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:24,109] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:24,190] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:24,195] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:24,195] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:24,212] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:24,401] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:24,436] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,089] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,137] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,178] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,190] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,248] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,260] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,297] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,307] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,343] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,355] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,420] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,433] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,574] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,587] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,603] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,616] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,637] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,650] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,690] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,707] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,927] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:25,939] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:25,991] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:26,008] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-13 12:01:26,264] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:29,511] INFO Registered loader: jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69 (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-13 12:01:29,511] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,512] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,512] INFO Added plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,513] INFO Added plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,513] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,513] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,514] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,514] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,514] INFO Added plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,514] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,515] INFO Added plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,515] INFO Added plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,515] INFO Added plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,515] INFO Added plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,516] INFO Added plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,516] INFO Added plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,516] INFO Added plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,516] INFO Added plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,517] INFO Added plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,517] INFO Added plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,517] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,517] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,518] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,518] INFO Added plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,518] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,519] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,519] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,519] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,520] INFO Added plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,520] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,520] INFO Added plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,520] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,521] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,521] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,521] INFO Added plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,521] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,522] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,522] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,522] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,522] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,523] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,523] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,523] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,523] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,524] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,524] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,524] INFO Added plugin 'org.apache.kafka.common.config.provider.FileConfigProvider' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,524] INFO Added plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-13 12:01:29,535] INFO Added aliases 'JdbcSinkConnector' and 'JdbcSink' to plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,535] INFO Added aliases 'JdbcSourceConnector' and 'JdbcSource' to plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,535] INFO Added aliases 'FileStreamSinkConnector' and 'FileStreamSink' to plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,536] INFO Added aliases 'FileStreamSourceConnector' and 'FileStreamSource' to plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,536] INFO Added aliases 'MirrorCheckpointConnector' and 'MirrorCheckpoint' to plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,536] INFO Added aliases 'MirrorHeartbeatConnector' and 'MirrorHeartbeat' to plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,537] INFO Added aliases 'MirrorSourceConnector' and 'MirrorSource' to plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,537] INFO Added aliases 'MockConnector' and 'Mock' to plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,537] INFO Added aliases 'MockSinkConnector' and 'MockSink' to plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,538] INFO Added aliases 'MockSourceConnector' and 'MockSource' to plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,538] INFO Added aliases 'SchemaSourceConnector' and 'SchemaSource' to plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,538] INFO Added aliases 'VerifiableSinkConnector' and 'VerifiableSink' to plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,538] INFO Added aliases 'VerifiableSourceConnector' and 'VerifiableSource' to plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,539] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,539] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,539] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,539] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,539] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,540] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,540] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,540] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,540] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,541] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,541] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,541] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,541] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,542] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,542] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,542] INFO Added alias 'SimpleHeaderConverter' to plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,542] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,543] INFO Added aliases 'PredicatedTransformation' and 'Predicated' to plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,543] INFO Added alias 'Filter' to plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,543] INFO Added alias 'RegexRouter' to plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,543] INFO Added alias 'TimestampRouter' to plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,544] INFO Added alias 'ValueToKey' to plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,544] INFO Added alias 'HasHeaderKey' to plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,544] INFO Added alias 'RecordIsTombstone' to plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,545] INFO Added alias 'TopicNameMatches' to plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,545] INFO Added alias 'BasicAuthSecurityRestExtension' to plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-13 12:01:29,546] INFO Added aliases 'AllConnectorClientConfigOverridePolicy' and 'All' to plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,546] INFO Added aliases 'NoneConnectorClientConfigOverridePolicy' and 'None' to plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,546] INFO Added aliases 'PrincipalConnectorClientConfigOverridePolicy' and 'Principal' to plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-13 12:01:29,571] INFO StandaloneConfig values: 
+	access.control.allow.methods = 
+	access.control.allow.origin = 
+	admin.listeners = null
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	config.providers = []
+	connector.client.config.override.policy = None
+	header.converter = class org.apache.kafka.connect.storage.SimpleHeaderConverter
+	internal.key.converter = class org.apache.kafka.connect.json.JsonConverter
+	internal.value.converter = class org.apache.kafka.connect.json.JsonConverter
+	key.converter = class org.apache.kafka.connect.json.JsonConverter
+	listeners = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	offset.flush.interval.ms = 10000
+	offset.flush.timeout.ms = 5000
+	offset.storage.file.filename = /tmp/connect.offsets
+	plugin.path = [/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin]
+	response.http.headers.config = 
+	rest.advertised.host.name = null
+	rest.advertised.listener = null
+	rest.advertised.port = null
+	rest.extension.classes = []
+	rest.host.name = null
+	rest.port = 8084
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	task.shutdown.graceful.timeout.ms = 5000
+	topic.creation.enable = true
+	topic.tracking.allow.reset = true
+	topic.tracking.enable = true
+	value.converter = class org.apache.kafka.connect.json.JsonConverter
+ (org.apache.kafka.connect.runtime.standalone.StandaloneConfig:354)
+[2024-08-13 12:01:29,573] INFO Creating Kafka admin client (org.apache.kafka.connect.util.ConnectUtils:49)
+[2024-08-13 12:01:29,577] INFO AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+ (org.apache.kafka.clients.admin.AdminClientConfig:354)
+[2024-08-13 12:01:29,658] WARN The configuration 'offset.flush.interval.ms' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,659] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,659] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,659] WARN The configuration 'offset.storage.file.filename' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,659] WARN The configuration 'value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,660] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,660] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,660] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:29,661] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-13 12:01:29,662] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-13 12:01:29,662] INFO Kafka startTimeMs: 1723537889661 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-13 12:01:29,994] INFO Kafka cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.connect.util.ConnectUtils:65)
+[2024-08-13 12:01:30,012] INFO Logging initialized @6982ms to org.eclipse.jetty.util.log.Slf4jLog (org.eclipse.jetty.util.log:169)
+[2024-08-13 12:01:30,060] INFO Added connector for http://:8084 (org.apache.kafka.connect.runtime.rest.RestServer:132)
+[2024-08-13 12:01:30,061] INFO Initializing REST server (org.apache.kafka.connect.runtime.rest.RestServer:204)
+[2024-08-13 12:01:30,070] INFO jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 11.0.24+8-post-Ubuntu-1ubuntu322.04 (org.eclipse.jetty.server.Server:359)
+[2024-08-13 12:01:30,095] INFO Started http_8084@188b6035{HTTP/1.1,[http/1.1]}{0.0.0.0:8084} (org.eclipse.jetty.server.AbstractConnector:330)
+[2024-08-13 12:01:30,096] INFO Started @7067ms (org.eclipse.jetty.server.Server:399)
+[2024-08-13 12:01:30,124] INFO Advertised URI: http://127.0.1.1:8084/ (org.apache.kafka.connect.runtime.rest.RestServer:371)
+[2024-08-13 12:01:30,125] INFO REST server listening at http://127.0.1.1:8084/, advertising URL http://127.0.1.1:8084/ (org.apache.kafka.connect.runtime.rest.RestServer:219)
+[2024-08-13 12:01:30,125] INFO Advertised URI: http://127.0.1.1:8084/ (org.apache.kafka.connect.runtime.rest.RestServer:371)
+[2024-08-13 12:01:30,125] INFO REST admin endpoints at http://127.0.1.1:8084/ (org.apache.kafka.connect.runtime.rest.RestServer:220)
+[2024-08-13 12:01:30,126] INFO Advertised URI: http://127.0.1.1:8084/ (org.apache.kafka.connect.runtime.rest.RestServer:371)
+[2024-08-13 12:01:30,126] INFO Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden (org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy:45)
+[2024-08-13 12:01:30,134] INFO Creating Kafka admin client (org.apache.kafka.connect.util.ConnectUtils:49)
+[2024-08-13 12:01:30,135] INFO AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+ (org.apache.kafka.clients.admin.AdminClientConfig:354)
+[2024-08-13 12:01:30,137] WARN The configuration 'offset.flush.interval.ms' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,138] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,138] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,138] WARN The configuration 'offset.storage.file.filename' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,138] WARN The configuration 'value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,139] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,139] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,139] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-13 12:01:30,139] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-13 12:01:30,139] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-13 12:01:30,140] INFO Kafka startTimeMs: 1723537890139 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-13 12:01:30,150] INFO Kafka cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.connect.util.ConnectUtils:65)
+[2024-08-13 12:01:30,156] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-13 12:01:30,156] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-13 12:01:30,156] INFO Kafka startTimeMs: 1723537890156 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-13 12:01:30,290] INFO JsonConverterConfig values: 
+	converter.type = key
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = false
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-13 12:01:30,293] INFO JsonConverterConfig values: 
+	converter.type = value
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = false
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-13 12:01:30,302] INFO Kafka Connect standalone worker initialization took 6680ms (org.apache.kafka.connect.cli.ConnectStandalone:100)
+[2024-08-13 12:01:30,302] INFO Kafka Connect starting (org.apache.kafka.connect.runtime.Connect:51)
+[2024-08-13 12:01:30,306] INFO Herder starting (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:94)
+[2024-08-13 12:01:30,306] INFO Worker starting (org.apache.kafka.connect.runtime.Worker:195)
+[2024-08-13 12:01:30,308] INFO Starting FileOffsetBackingStore with file /tmp/connect.offsets (org.apache.kafka.connect.storage.FileOffsetBackingStore:58)
+[2024-08-13 12:01:30,319] INFO Worker started (org.apache.kafka.connect.runtime.Worker:202)
+[2024-08-13 12:01:30,320] INFO Herder started (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:97)
+[2024-08-13 12:01:30,320] INFO Initializing REST resources (org.apache.kafka.connect.runtime.rest.RestServer:224)
+[2024-08-13 12:01:30,370] INFO Adding admin resources to main listener (org.apache.kafka.connect.runtime.rest.RestServer:241)
+[2024-08-13 12:01:30,452] INFO DefaultSessionIdManager workerName=node0 (org.eclipse.jetty.server.session:333)
+[2024-08-13 12:01:30,453] INFO No SessionScavenger set, using defaults (org.eclipse.jetty.server.session:338)
+[2024-08-13 12:01:30,455] INFO node0 Scavenging every 660000ms (org.eclipse.jetty.server.session:140)
+[2024-08-13 12:01:31,028] INFO Started o.e.j.s.ServletContextHandler@4cbc2e3b{/,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:825)
+[2024-08-13 12:01:31,028] INFO REST resources initialized; server is started and ready to handle requests (org.apache.kafka.connect.runtime.rest.RestServer:319)
+[2024-08-13 12:01:31,028] INFO Kafka Connect started (org.apache.kafka.connect.runtime.Connect:57)
+[2024-08-13 12:01:31,065] INFO AbstractConfig values: 
+ (org.apache.kafka.common.config.AbstractConfig:354)
+[2024-08-13 12:01:31,082] INFO Creating connector mssql-connector of type io.confluent.connect.jdbc.JdbcSourceConnector (org.apache.kafka.connect.runtime.Worker:274)
+[2024-08-13 12:01:31,083] INFO SourceConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SourceConnectorConfig:354)
+[2024-08-13 12:01:31,084] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-13 12:01:31,089] INFO Instantiated connector mssql-connector with version 10.0.0 of type class io.confluent.connect.jdbc.JdbcSourceConnector (org.apache.kafka.connect.runtime.Worker:284)
+[2024-08-13 12:01:31,089] INFO Finished creating connector mssql-connector (org.apache.kafka.connect.runtime.Worker:310)
+[2024-08-13 12:01:31,091] INFO Starting JDBC Source Connector (io.confluent.connect.jdbc.JdbcSourceConnector:69)
+[2024-08-13 12:01:31,092] INFO JdbcSourceConnectorConfig values: 
+	batch.max.rows = 100
+	catalog.pattern = null
+	connection.attempts = 3
+	connection.backoff.ms = 10000
+	connection.password = [hidden]
+	connection.url = jdbc:sqlserver://192.168.31.3;databaseName=LookupData;selectMethod=cursor;responseBuffering=adaptive
+	connection.user = tafta
+	db.timezone = UTC
+	dialect.name = SqlServerDatabaseDialect
+	incrementing.column.name = id
+	mode = incrementing
+	numeric.mapping = none
+	numeric.precision.mapping = false
+	poll.interval.ms = 5000
+	query = 
+	query.suffix = 
+	quote.sql.identifiers = ALWAYS
+	schema.pattern = null
+	table.blacklist = []
+	table.poll.interval.ms = 60000
+	table.types = [TABLE]
+	table.whitelist = [test]
+	timestamp.column.name = []
+	timestamp.delay.interval.ms = 0
+	timestamp.initial = null
+	topic.prefix = mssql_
+	validate.non.null = true
+ (io.confluent.connect.jdbc.source.JdbcSourceConnectorConfig:354)
+[2024-08-13 12:01:31,097] INFO Attempting to open connection #1 to SqlServer (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 12:01:31,241] INFO Starting thread to monitor tables. (io.confluent.connect.jdbc.source.TableMonitorThread:73)
+[2024-08-13 12:01:31,244] INFO SourceConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SourceConnectorConfig:354)
+[2024-08-13 12:01:31,244] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-13 12:01:31,373] INFO Creating task mssql-connector-0 (org.apache.kafka.connect.runtime.Worker:509)
+[2024-08-13 12:01:31,375] INFO ConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig:354)
+[2024-08-13 12:01:31,375] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-13 12:01:31,377] INFO TaskConfig values: 
+	task.class = class io.confluent.connect.jdbc.source.JdbcSourceTask
+ (org.apache.kafka.connect.runtime.TaskConfig:354)
+[2024-08-13 12:01:31,378] INFO Instantiated task mssql-connector-0 with version 10.0.0 of type io.confluent.connect.jdbc.source.JdbcSourceTask (org.apache.kafka.connect.runtime.Worker:524)
+[2024-08-13 12:01:31,378] INFO JsonConverterConfig values: 
+	converter.type = key
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = true
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-13 12:01:31,379] INFO Set up the key converter class org.apache.kafka.connect.json.JsonConverter for task mssql-connector-0 using the worker config (org.apache.kafka.connect.runtime.Worker:537)
+[2024-08-13 12:01:31,379] INFO JsonConverterConfig values: 
+	converter.type = value
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = true
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-13 12:01:31,379] INFO Set up the value converter class org.apache.kafka.connect.json.JsonConverter for task mssql-connector-0 using the worker config (org.apache.kafka.connect.runtime.Worker:543)
+[2024-08-13 12:01:31,380] INFO Set up the header converter class org.apache.kafka.connect.storage.SimpleHeaderConverter for task mssql-connector-0 using the worker config (org.apache.kafka.connect.runtime.Worker:550)
+[2024-08-13 12:01:31,383] INFO SourceConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SourceConnectorConfig:354)
+[2024-08-13 12:01:31,384] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = mssql-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-13 12:01:31,387] INFO Initializing: org.apache.kafka.connect.runtime.TransformationChain{} (org.apache.kafka.connect.runtime.Worker:606)
+[2024-08-13 12:01:31,392] INFO ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = connector-producer-mssql-connector-0
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 2147483647
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 9223372036854775807
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 2147483647
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+ (org.apache.kafka.clients.producer.ProducerConfig:354)
+[2024-08-13 12:01:31,418] WARN The configuration 'metrics.context.connect.kafka.cluster.id' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig:362)
+[2024-08-13 12:01:31,418] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-13 12:01:31,419] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-13 12:01:31,420] INFO Kafka startTimeMs: 1723537891418 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-13 12:01:31,432] INFO [Producer clientId=connector-producer-mssql-connector-0] Cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.clients.Metadata:279)
+[2024-08-13 12:01:31,435] INFO Starting JDBC source task (io.confluent.connect.jdbc.source.JdbcSourceTask:81)
+[2024-08-13 12:01:31,436] INFO Created connector mssql-connector (org.apache.kafka.connect.cli.ConnectStandalone:112)
+[2024-08-13 12:01:31,437] INFO JdbcSourceTaskConfig values: 
+	batch.max.rows = 100
+	catalog.pattern = null
+	connection.attempts = 3
+	connection.backoff.ms = 10000
+	connection.password = [hidden]
+	connection.url = jdbc:sqlserver://192.168.31.3;databaseName=LookupData;selectMethod=cursor;responseBuffering=adaptive
+	connection.user = tafta
+	db.timezone = UTC
+	dialect.name = SqlServerDatabaseDialect
+	incrementing.column.name = id
+	mode = incrementing
+	numeric.mapping = none
+	numeric.precision.mapping = false
+	poll.interval.ms = 5000
+	query = 
+	query.suffix = 
+	quote.sql.identifiers = ALWAYS
+	schema.pattern = null
+	table.blacklist = []
+	table.poll.interval.ms = 60000
+	table.types = [TABLE]
+	table.whitelist = [test]
+	tables = ["LookupData"."dbo"."test"]
+	timestamp.column.name = []
+	timestamp.delay.interval.ms = 0
+	timestamp.initial = null
+	topic.prefix = mssql_
+	validate.non.null = true
+ (io.confluent.connect.jdbc.source.JdbcSourceTaskConfig:354)
+[2024-08-13 12:01:31,438] INFO Using JDBC dialect SqlServer (io.confluent.connect.jdbc.source.JdbcSourceTask:98)
+[2024-08-13 12:01:31,483] INFO Attempting to open connection #1 to SqlServer (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 12:01:31,534] INFO Found offset {{protocol=1, table=LookupData.dbo.test}={incrementing=300116}, {table=test}=null} for partition {protocol=1, table=LookupData.dbo.test} (io.confluent.connect.jdbc.source.JdbcSourceTask:189)
+[2024-08-13 12:01:31,537] INFO Started JDBC source task (io.confluent.connect.jdbc.source.JdbcSourceTask:257)
+[2024-08-13 12:01:31,537] INFO WorkerSourceTask{id=mssql-connector-0} Source task finished initialization and start (org.apache.kafka.connect.runtime.WorkerSourceTask:233)
+[2024-08-13 12:01:31,539] INFO Begin using SQL query: SELECT * FROM "LookupData"."dbo"."test" WHERE "LookupData"."dbo"."test"."id" > ? ORDER BY "LookupData"."dbo"."test"."id" ASC (io.confluent.connect.jdbc.source.TableQuerier:164)
+[2024-08-13 12:01:41,436] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:01:41,441] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:01:51,442] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:01:51,443] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:02:01,444] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:02:01,446] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:02:11,448] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:02:11,450] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:02:21,453] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:02:21,455] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:02:31,456] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:02:31,456] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:02:41,457] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:02:41,458] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:02:51,459] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:02:51,461] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:03:01,463] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:03:01,465] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:03:11,468] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:03:11,469] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:03:21,471] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:03:21,473] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:03:31,474] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:03:31,475] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:03:41,476] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:03:41,477] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:03:51,478] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:03:51,480] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:04:01,478] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:04:01,479] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:04:11,480] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:04:11,481] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:04:21,483] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:04:21,484] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:04:31,487] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:04:31,488] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:04:41,488] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:04:41,489] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:04:51,490] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:04:51,490] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:05:01,476] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:05:01,477] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:05:11,479] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:05:11,481] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:05:21,482] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:05:21,483] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:05:31,490] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:05:31,492] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:05:41,495] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:05:41,497] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:05:51,499] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:05:51,501] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:06:01,504] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:06:01,505] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:06:11,506] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:06:11,507] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:06:21,507] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:06:21,508] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:06:31,509] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:06:31,511] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:06:41,513] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:06:41,515] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:06:51,516] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:06:51,518] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:07:01,508] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:07:01,510] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:07:11,512] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:07:11,514] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:07:21,516] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:07:21,516] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:07:31,516] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:07:31,517] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:07:41,518] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:07:41,520] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:07:51,522] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:07:51,523] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:08:01,523] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:08:01,524] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:08:11,525] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:08:11,526] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:08:21,528] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:08:21,530] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:08:31,532] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:08:31,534] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:08:41,536] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:08:41,537] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:08:51,539] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:08:51,540] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:09:01,541] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:09:01,542] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:09:11,544] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:09:11,545] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:09:21,547] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:09:21,548] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:09:31,549] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:09:31,549] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:09:41,550] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:09:41,551] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:09:51,552] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:09:51,553] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:10:01,553] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:10:01,554] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:10:11,555] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:10:11,557] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:10:21,560] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:10:21,561] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:10:31,562] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:10:31,563] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:10:41,564] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:10:41,566] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:10:51,568] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:10:51,569] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:11:01,570] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:11:01,571] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:11:11,572] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:11:11,573] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:11:21,574] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:11:21,575] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:11:31,576] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:11:31,576] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:11:41,577] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:11:41,579] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:11:51,580] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:11:51,581] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:12:01,581] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:12:01,583] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:12:11,585] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:12:11,586] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:12:21,587] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:12:21,589] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:12:31,591] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:12:31,591] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:12:41,592] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:12:41,594] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:12:51,595] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:12:51,597] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:13:01,596] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:13:01,598] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:13:11,600] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:13:11,601] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:13:21,603] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:13:21,605] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:13:31,606] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:13:31,608] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:13:41,610] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:13:41,611] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:13:51,612] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:13:51,614] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:14:01,617] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:14:01,618] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:14:11,618] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:14:11,619] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:14:21,620] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:14:21,622] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:14:31,623] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:14:31,624] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:14:41,625] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:14:41,626] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:14:51,628] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:14:51,630] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:15:01,631] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:15:01,632] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:15:11,633] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:15:11,636] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:15:21,637] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:15:21,639] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:15:31,640] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:15:31,641] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:15:41,642] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:15:41,643] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:15:51,644] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:15:51,645] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:16:01,647] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:16:01,647] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:16:11,649] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:16:11,651] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:16:21,653] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:16:21,654] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:16:31,656] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:16:31,658] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:16:41,659] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:16:41,660] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:16:51,662] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:16:51,663] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:17:01,664] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:17:01,666] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:17:11,667] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:17:11,668] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:17:21,669] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:17:21,671] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:17:31,664] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:17:31,666] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:17:41,668] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:17:41,669] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:17:51,671] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:17:51,671] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:18:01,667] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:18:01,668] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:18:11,669] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:18:11,671] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:18:21,673] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:18:21,673] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:18:31,674] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:18:31,676] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:18:41,679] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:18:41,680] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:18:51,681] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:18:51,683] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:19:01,684] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:19:01,686] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:19:11,688] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:19:11,690] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:19:21,692] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:19:21,694] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:19:31,687] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:19:31,688] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:19:41,690] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:19:41,692] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:19:51,693] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:19:51,695] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:20:01,695] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:20:01,696] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:20:11,697] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:20:11,699] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:20:21,701] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:20:21,703] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:20:31,705] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:20:31,706] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:20:41,707] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:20:41,709] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:20:51,710] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:20:51,710] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:21:01,710] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:21:01,711] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:21:11,711] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:21:11,712] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:21:21,713] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:21:21,713] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:21:31,714] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:21:31,714] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:21:41,715] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:21:41,716] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:21:51,716] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:21:51,717] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:22:01,703] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:22:01,704] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:22:11,705] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:22:11,706] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:22:21,707] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:22:21,707] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:22:31,722] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:22:31,723] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:22:41,725] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:22:41,726] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:22:51,727] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:22:51,729] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:23:01,730] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:23:01,732] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:23:11,734] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:23:11,735] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:23:21,737] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:23:21,739] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:23:31,740] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:23:31,740] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:23:41,741] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:23:41,743] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:23:51,745] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:23:51,747] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:24:01,749] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:24:01,749] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:24:11,750] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:24:11,752] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:24:21,754] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:24:21,756] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:24:31,756] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:24:31,757] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:24:41,758] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:24:41,760] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:24:51,762] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:24:51,764] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:25:01,765] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:25:01,767] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:25:11,769] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:25:11,771] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:25:21,773] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:25:21,775] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:25:31,763] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:25:31,765] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:25:41,767] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:25:41,768] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:25:51,769] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:25:51,771] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:26:01,783] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:26:01,784] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:26:11,785] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:26:11,785] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:26:21,786] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:26:21,788] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:26:31,790] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:26:31,792] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:26:41,795] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:26:41,796] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:26:51,798] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:26:51,801] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:27:01,788] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:27:01,790] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:27:11,792] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:27:11,794] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:27:21,796] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:27:21,797] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:27:31,790] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:27:31,792] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:27:41,793] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:27:41,795] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:27:51,797] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:27:51,798] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:28:01,797] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:28:01,798] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:28:11,800] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:28:11,801] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:28:21,803] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:28:21,805] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:28:31,806] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:28:31,808] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:28:41,811] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:28:41,811] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:28:51,812] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:28:51,814] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:29:01,816] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:29:01,817] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:29:11,820] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:29:11,822] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:29:21,824] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:29:21,825] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:29:31,818] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:29:31,820] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:29:41,821] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:29:41,823] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:29:51,825] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:29:51,826] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:30:01,827] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:30:01,828] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:30:11,829] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:30:11,830] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:30:21,831] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:30:21,832] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:30:31,833] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:30:31,835] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:30:41,837] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:30:41,839] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:30:51,840] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:30:51,843] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:31:01,844] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:31:01,846] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:31:11,847] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:31:11,849] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:31:21,851] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:31:21,852] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:31:31,854] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:31:31,856] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:31:41,858] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:31:41,860] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:31:51,862] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:31:51,863] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:32:01,864] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:32:01,865] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:32:11,866] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:32:11,868] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:32:21,870] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:32:21,872] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:32:31,874] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:32:31,876] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:32:41,878] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:32:41,880] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:32:51,881] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:32:51,883] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:33:01,885] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:33:01,887] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:33:11,888] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:33:11,890] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:33:21,892] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:33:21,894] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:33:31,896] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:33:31,898] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:33:41,900] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:33:41,902] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:33:51,904] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:33:51,906] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:34:01,908] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:34:01,908] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:34:11,909] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:34:11,910] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:34:21,912] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:34:21,914] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:34:31,916] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:34:31,917] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:34:41,918] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:34:41,919] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:34:51,921] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:34:51,923] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:35:01,914] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:35:01,917] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:35:11,919] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:35:11,919] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:35:21,921] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:35:21,922] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:35:31,934] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:35:31,936] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:35:41,937] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:35:41,940] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:35:51,942] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:35:51,943] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:36:01,945] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:36:01,945] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:36:11,946] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:36:11,949] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:36:21,951] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:36:21,953] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:36:31,955] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:36:31,958] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:36:41,960] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:36:41,962] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:36:51,964] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:36:51,967] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:37:01,969] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:37:01,971] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:37:11,972] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:37:11,973] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:37:21,975] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:37:21,977] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:37:31,979] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:37:31,981] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:37:41,983] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:37:41,985] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:37:51,987] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:37:51,989] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:38:01,981] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:38:01,982] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:38:11,983] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:38:11,984] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:38:21,987] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:38:21,989] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:38:32,000] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:38:32,002] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:38:42,004] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:38:42,006] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:38:52,008] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:38:52,010] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:39:02,003] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:39:02,004] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:39:12,006] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:39:12,007] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:39:22,008] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:39:22,009] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:39:32,009] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:39:32,010] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:39:42,012] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:39:42,014] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:39:52,016] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:39:52,018] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:40:02,006] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:40:02,006] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:40:12,007] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:40:12,008] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:40:22,009] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:40:22,010] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:40:32,009] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:40:32,011] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:40:42,013] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:40:42,014] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:40:52,015] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:40:52,017] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:41:02,006] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:41:02,008] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:41:12,010] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:41:12,011] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:41:22,013] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:41:22,013] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:41:32,007] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:41:32,009] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:41:42,011] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:41:42,013] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:41:52,016] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:41:52,017] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:42:02,016] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:42:02,017] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:42:12,018] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:42:12,020] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:42:22,022] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:42:22,023] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:42:32,023] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:42:32,025] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:42:42,026] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:42:42,028] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:42:52,029] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:42:52,030] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:43:02,030] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:43:02,032] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:43:12,034] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:43:12,035] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:43:22,038] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:43:22,040] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:43:32,041] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:43:32,043] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:43:42,045] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:43:42,047] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:43:52,049] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:43:52,051] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:44:02,051] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:44:02,052] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:44:12,053] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:44:12,056] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:44:22,059] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:44:22,060] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:44:32,062] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:44:32,063] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:44:42,064] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:44:42,065] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:44:52,067] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:44:52,068] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:45:02,058] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:45:02,060] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:57:24,872] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:57:24,872] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:57:34,873] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:57:34,874] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:57:44,875] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:57:44,876] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:57:54,877] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:57:54,877] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:58:04,878] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:58:04,878] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:58:14,879] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:58:14,880] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:58:24,881] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:58:24,881] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:58:34,882] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:58:34,883] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:58:44,883] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:58:44,884] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:58:54,885] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:58:54,885] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:59:04,886] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:59:04,888] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:59:14,890] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:59:14,891] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:59:24,892] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:59:24,893] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:59:34,894] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:59:34,895] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:59:44,895] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:59:44,897] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)
+[2024-08-13 12:59:54,898] INFO WorkerSourceTask{id=mssql-connector-0} Committing offsets (org.apache.kafka.connect.runtime.WorkerSourceTask:478)
+[2024-08-13 12:59:54,899] INFO WorkerSourceTask{id=mssql-connector-0} flushing 0 outstanding messages for offset commit (org.apache.kafka.connect.runtime.WorkerSourceTask:495)

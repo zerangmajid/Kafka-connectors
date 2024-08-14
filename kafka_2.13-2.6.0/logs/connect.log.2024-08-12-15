@@ -1,0 +1,1235 @@
+[2024-08-12 15:00:42,880] INFO WorkerSinkTask{id=local-console-sink-0} Committing offsets asynchronously using sequence number 27: {mssql_test-0=OffsetAndMetadata{offset=106, leaderEpoch=null, metadata=''}} (org.apache.kafka.connect.runtime.WorkerSinkTask:346)
+[2024-08-12 15:28:53,733] INFO Kafka Connect stopping (org.apache.kafka.connect.runtime.Connect:67)
+[2024-08-12 15:28:53,736] INFO Stopping REST server (org.apache.kafka.connect.runtime.rest.RestServer:327)
+[2024-08-12 15:28:53,746] INFO Stopped http_8083@4a34e9f{HTTP/1.1,[http/1.1]}{0.0.0.0:8083} (org.eclipse.jetty.server.AbstractConnector:380)
+[2024-08-12 15:28:53,746] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:158)
+[2024-08-12 15:28:53,749] INFO REST server stopped (org.apache.kafka.connect.runtime.rest.RestServer:344)
+[2024-08-12 15:28:53,750] INFO Herder stopping (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:102)
+[2024-08-12 15:28:53,751] INFO Stopping task local-console-sink-0 (org.apache.kafka.connect.runtime.Worker:836)
+[2024-08-12 15:28:53,753] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Revoke previously assigned partitions mssql_test-0 (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:307)
+[2024-08-12 15:28:53,754] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Member connector-consumer-local-console-sink-0-fd314571-61ef-4e23-bba6-2e192327fa47 sending LeaveGroup request to coordinator COMP432.TAFTA.LOCAL:9092 (id: 2147483647 rack: null) due to the consumer is being closed (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1005)
+[2024-08-12 15:28:53,767] INFO Stopping connector local-console-sink (org.apache.kafka.connect.runtime.Worker:387)
+[2024-08-12 15:28:53,767] INFO Scheduled shutdown for WorkerConnector{id=local-console-sink} (org.apache.kafka.connect.runtime.WorkerConnector:249)
+[2024-08-12 15:28:53,768] INFO Completed shutdown for WorkerConnector{id=local-console-sink} (org.apache.kafka.connect.runtime.WorkerConnector:269)
+[2024-08-12 15:28:53,769] INFO Worker stopping (org.apache.kafka.connect.runtime.Worker:209)
+[2024-08-12 15:28:53,770] INFO Stopped FileOffsetBackingStore (org.apache.kafka.connect.storage.FileOffsetBackingStore:66)
+[2024-08-12 15:28:53,770] INFO Worker stopped (org.apache.kafka.connect.runtime.Worker:230)
+[2024-08-12 15:28:53,772] INFO Herder stopped (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:120)
+[2024-08-12 15:28:53,772] INFO Kafka Connect stopped (org.apache.kafka.connect.runtime.Connect:72)
+[2024-08-12 15:29:10,391] INFO Kafka Connect standalone worker initializing ... (org.apache.kafka.connect.cli.ConnectStandalone:69)
+[2024-08-12 15:29:10,399] INFO WorkerInfo values: 
+	jvm.args = -Xms256M, -Xmx2G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=20, -XX:InitiatingHeapOccupancyPercent=35, -XX:+ExplicitGCInvokesConcurrent, -XX:MaxInlineLevel=15, -Djava.awt.headless=true, -Dcom.sun.management.jmxremote, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -Dkafka.logs.dir=/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../logs, -Dlog4j.configuration=file:./bin/../config/connect-log4j.properties
+	jvm.spec = Ubuntu, OpenJDK 64-Bit Server VM, 11.0.24, 11.0.24+8-post-Ubuntu-1ubuntu322.04
+	jvm.classpath = /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/activation-1.1.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/commons-cli-1.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-api-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-file-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-json-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-scala_2.13-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jdbc-plugin:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-client-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-common-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-server-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-scala_2.13-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0-sources.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/log4j-1.2.17.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/paranamer-2.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/reflections-0.9.12.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-collection-compat_2.13-2.1.6.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-library-2.13.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-reflect-2.13.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar
+	os.spec = Linux, amd64, 5.15.153.1-microsoft-standard-WSL2
+	os.vcpus = 12
+ (org.apache.kafka.connect.runtime.WorkerInfo:71)
+[2024-08-12 15:29:10,405] INFO Scanning for plugin classes. This might take a moment ... (org.apache.kafka.connect.cli.ConnectStandalone:78)
+[2024-08-12 15:29:10,429] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:10,546] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:10,547] INFO Added plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:10,547] INFO Added plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:10,548] INFO Added plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:10,718] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:10,741] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:10,761] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:10,817] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:10,834] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:10,886] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:10,886] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:10,887] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:10,899] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:11,086] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:11,131] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:11,766] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:11,814] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:11,850] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:11,863] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:11,911] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:11,924] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:11,950] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:11,962] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:11,995] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,007] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,067] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,077] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,207] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,223] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,235] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,247] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,263] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,275] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,311] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,324] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,540] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,549] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,584] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:12,598] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:29:12,875] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:15,757] INFO Registered loader: jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69 (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:29:15,758] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,758] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,758] INFO Added plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,759] INFO Added plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,759] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,759] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,760] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,760] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,760] INFO Added plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,761] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,761] INFO Added plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,761] INFO Added plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,761] INFO Added plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,762] INFO Added plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,762] INFO Added plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,763] INFO Added plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,763] INFO Added plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,764] INFO Added plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,764] INFO Added plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,764] INFO Added plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,765] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,765] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,766] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,766] INFO Added plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,766] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,767] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,767] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,767] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,767] INFO Added plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,768] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,768] INFO Added plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,768] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,769] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,769] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,770] INFO Added plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,770] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,770] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,770] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,771] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,771] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,771] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,772] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,772] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,772] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,773] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,773] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,773] INFO Added plugin 'org.apache.kafka.common.config.provider.FileConfigProvider' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,774] INFO Added plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:29:15,784] INFO Added aliases 'JdbcSinkConnector' and 'JdbcSink' to plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,784] INFO Added aliases 'JdbcSourceConnector' and 'JdbcSource' to plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,784] INFO Added aliases 'FileStreamSinkConnector' and 'FileStreamSink' to plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,784] INFO Added aliases 'FileStreamSourceConnector' and 'FileStreamSource' to plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,785] INFO Added aliases 'MirrorCheckpointConnector' and 'MirrorCheckpoint' to plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,785] INFO Added aliases 'MirrorHeartbeatConnector' and 'MirrorHeartbeat' to plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,785] INFO Added aliases 'MirrorSourceConnector' and 'MirrorSource' to plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,785] INFO Added aliases 'MockConnector' and 'Mock' to plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,786] INFO Added aliases 'MockSinkConnector' and 'MockSink' to plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,786] INFO Added aliases 'MockSourceConnector' and 'MockSource' to plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,786] INFO Added aliases 'SchemaSourceConnector' and 'SchemaSource' to plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,787] INFO Added aliases 'VerifiableSinkConnector' and 'VerifiableSink' to plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,787] INFO Added aliases 'VerifiableSourceConnector' and 'VerifiableSource' to plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,788] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,788] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,788] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,789] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,789] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,789] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,790] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,790] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,790] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,790] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,791] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,791] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,791] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,792] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,792] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,792] INFO Added alias 'SimpleHeaderConverter' to plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,792] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,793] INFO Added aliases 'PredicatedTransformation' and 'Predicated' to plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,793] INFO Added alias 'Filter' to plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,793] INFO Added alias 'RegexRouter' to plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,793] INFO Added alias 'TimestampRouter' to plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,794] INFO Added alias 'ValueToKey' to plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,794] INFO Added alias 'HasHeaderKey' to plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,795] INFO Added alias 'RecordIsTombstone' to plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,795] INFO Added alias 'TopicNameMatches' to plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,795] INFO Added alias 'BasicAuthSecurityRestExtension' to plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:29:15,795] INFO Added aliases 'AllConnectorClientConfigOverridePolicy' and 'All' to plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,796] INFO Added aliases 'NoneConnectorClientConfigOverridePolicy' and 'None' to plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,796] INFO Added aliases 'PrincipalConnectorClientConfigOverridePolicy' and 'Principal' to plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:29:15,823] INFO StandaloneConfig values: 
+	access.control.allow.methods = 
+	access.control.allow.origin = 
+	admin.listeners = null
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	config.providers = []
+	connector.client.config.override.policy = None
+	header.converter = class org.apache.kafka.connect.storage.SimpleHeaderConverter
+	internal.key.converter = class org.apache.kafka.connect.json.JsonConverter
+	internal.value.converter = class org.apache.kafka.connect.json.JsonConverter
+	key.converter = class org.apache.kafka.connect.json.JsonConverter
+	listeners = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	offset.flush.interval.ms = 10000
+	offset.flush.timeout.ms = 5000
+	offset.storage.file.filename = /tmp/connect.offsets
+	plugin.path = [/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin]
+	response.http.headers.config = 
+	rest.advertised.host.name = null
+	rest.advertised.listener = null
+	rest.advertised.port = null
+	rest.extension.classes = []
+	rest.host.name = null
+	rest.port = 8083
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	task.shutdown.graceful.timeout.ms = 5000
+	topic.creation.enable = true
+	topic.tracking.allow.reset = true
+	topic.tracking.enable = true
+	value.converter = class org.apache.kafka.connect.json.JsonConverter
+ (org.apache.kafka.connect.runtime.standalone.StandaloneConfig:354)
+[2024-08-12 15:29:15,826] INFO Creating Kafka admin client (org.apache.kafka.connect.util.ConnectUtils:49)
+[2024-08-12 15:29:15,829] INFO AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+ (org.apache.kafka.clients.admin.AdminClientConfig:354)
+[2024-08-12 15:29:15,922] WARN The configuration 'offset.flush.interval.ms' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,922] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,922] WARN The configuration 'offset.storage.file.filename' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,922] WARN The configuration 'value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,923] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,923] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,923] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:15,924] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-12 15:29:15,924] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-12 15:29:15,924] INFO Kafka startTimeMs: 1723463955923 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-12 15:29:16,268] INFO Kafka cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.connect.util.ConnectUtils:65)
+[2024-08-12 15:29:16,287] INFO Logging initialized @6508ms to org.eclipse.jetty.util.log.Slf4jLog (org.eclipse.jetty.util.log:169)
+[2024-08-12 15:29:16,340] INFO Added connector for http://:8083 (org.apache.kafka.connect.runtime.rest.RestServer:132)
+[2024-08-12 15:29:16,340] INFO Initializing REST server (org.apache.kafka.connect.runtime.rest.RestServer:204)
+[2024-08-12 15:29:16,349] INFO jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 11.0.24+8-post-Ubuntu-1ubuntu322.04 (org.eclipse.jetty.server.Server:359)
+[2024-08-12 15:29:16,375] INFO Started http_8083@4e93dcb9{HTTP/1.1,[http/1.1]}{0.0.0.0:8083} (org.eclipse.jetty.server.AbstractConnector:330)
+[2024-08-12 15:29:16,376] INFO Started @6597ms (org.eclipse.jetty.server.Server:399)
+[2024-08-12 15:29:16,402] INFO Advertised URI: http://127.0.1.1:8083/ (org.apache.kafka.connect.runtime.rest.RestServer:371)
+[2024-08-12 15:29:16,403] INFO REST server listening at http://127.0.1.1:8083/, advertising URL http://127.0.1.1:8083/ (org.apache.kafka.connect.runtime.rest.RestServer:219)
+[2024-08-12 15:29:16,403] INFO Advertised URI: http://127.0.1.1:8083/ (org.apache.kafka.connect.runtime.rest.RestServer:371)
+[2024-08-12 15:29:16,404] INFO REST admin endpoints at http://127.0.1.1:8083/ (org.apache.kafka.connect.runtime.rest.RestServer:220)
+[2024-08-12 15:29:16,404] INFO Advertised URI: http://127.0.1.1:8083/ (org.apache.kafka.connect.runtime.rest.RestServer:371)
+[2024-08-12 15:29:16,405] INFO Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden (org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy:45)
+[2024-08-12 15:29:16,412] INFO Creating Kafka admin client (org.apache.kafka.connect.util.ConnectUtils:49)
+[2024-08-12 15:29:16,413] INFO AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+ (org.apache.kafka.clients.admin.AdminClientConfig:354)
+[2024-08-12 15:29:16,416] WARN The configuration 'offset.flush.interval.ms' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,417] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,417] WARN The configuration 'offset.storage.file.filename' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,417] WARN The configuration 'value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,417] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,418] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,418] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:29:16,418] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-12 15:29:16,418] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-12 15:29:16,419] INFO Kafka startTimeMs: 1723463956418 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-12 15:29:16,425] INFO Kafka cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.connect.util.ConnectUtils:65)
+[2024-08-12 15:29:16,430] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-12 15:29:16,431] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-12 15:29:16,431] INFO Kafka startTimeMs: 1723463956430 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-12 15:29:16,571] INFO JsonConverterConfig values: 
+	converter.type = key
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = false
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-12 15:29:16,573] INFO JsonConverterConfig values: 
+	converter.type = value
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = false
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-12 15:29:16,581] INFO Kafka Connect standalone worker initialization took 6189ms (org.apache.kafka.connect.cli.ConnectStandalone:100)
+[2024-08-12 15:29:16,582] INFO Kafka Connect starting (org.apache.kafka.connect.runtime.Connect:51)
+[2024-08-12 15:29:16,584] INFO Herder starting (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:94)
+[2024-08-12 15:29:16,585] INFO Worker starting (org.apache.kafka.connect.runtime.Worker:195)
+[2024-08-12 15:29:16,586] INFO Starting FileOffsetBackingStore with file /tmp/connect.offsets (org.apache.kafka.connect.storage.FileOffsetBackingStore:58)
+[2024-08-12 15:29:16,601] INFO Worker started (org.apache.kafka.connect.runtime.Worker:202)
+[2024-08-12 15:29:16,602] INFO Herder started (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:97)
+[2024-08-12 15:29:16,602] INFO Initializing REST resources (org.apache.kafka.connect.runtime.rest.RestServer:224)
+[2024-08-12 15:29:16,649] INFO Adding admin resources to main listener (org.apache.kafka.connect.runtime.rest.RestServer:241)
+[2024-08-12 15:29:16,729] INFO DefaultSessionIdManager workerName=node0 (org.eclipse.jetty.server.session:333)
+[2024-08-12 15:29:16,730] INFO No SessionScavenger set, using defaults (org.eclipse.jetty.server.session:338)
+[2024-08-12 15:29:16,731] INFO node0 Scavenging every 660000ms (org.eclipse.jetty.server.session:140)
+[2024-08-12 15:29:17,266] INFO Started o.e.j.s.ServletContextHandler@3722c145{/,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler:825)
+[2024-08-12 15:29:17,266] INFO REST resources initialized; server is started and ready to handle requests (org.apache.kafka.connect.runtime.rest.RestServer:319)
+[2024-08-12 15:29:17,267] INFO Kafka Connect started (org.apache.kafka.connect.runtime.Connect:57)
+[2024-08-12 15:29:17,282] INFO AbstractConfig values: 
+ (org.apache.kafka.common.config.AbstractConfig:354)
+[2024-08-12 15:29:17,307] INFO Creating connector local-console-sink of type org.apache.kafka.connect.file.FileStreamSinkConnector (org.apache.kafka.connect.runtime.Worker:274)
+[2024-08-12 15:29:17,308] INFO SinkConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	topics = [mssql_test]
+	topics.regex = 
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SinkConnectorConfig:354)
+[2024-08-12 15:29:17,309] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	topics = [mssql_test]
+	topics.regex = 
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-12 15:29:17,315] INFO Instantiated connector local-console-sink with version 2.6.0 of type class org.apache.kafka.connect.file.FileStreamSinkConnector (org.apache.kafka.connect.runtime.Worker:284)
+[2024-08-12 15:29:17,315] INFO Finished creating connector local-console-sink (org.apache.kafka.connect.runtime.Worker:310)
+[2024-08-12 15:29:17,318] INFO AbstractConfig values: 
+	file = /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/output/file.txt
+ (org.apache.kafka.common.config.AbstractConfig:354)
+[2024-08-12 15:29:17,321] INFO SinkConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	topics = [mssql_test]
+	topics.regex = 
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SinkConnectorConfig:354)
+[2024-08-12 15:29:17,322] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	topics = [mssql_test]
+	topics.regex = 
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-12 15:29:17,324] INFO Creating task local-console-sink-0 (org.apache.kafka.connect.runtime.Worker:509)
+[2024-08-12 15:29:17,325] INFO ConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig:354)
+[2024-08-12 15:29:17,326] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-12 15:29:17,327] INFO TaskConfig values: 
+	task.class = class org.apache.kafka.connect.file.FileStreamSinkTask
+ (org.apache.kafka.connect.runtime.TaskConfig:354)
+[2024-08-12 15:29:17,327] INFO Instantiated task local-console-sink-0 with version 2.6.0 of type org.apache.kafka.connect.file.FileStreamSinkTask (org.apache.kafka.connect.runtime.Worker:524)
+[2024-08-12 15:29:17,328] INFO JsonConverterConfig values: 
+	converter.type = key
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = true
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-12 15:29:17,329] INFO Set up the key converter class org.apache.kafka.connect.json.JsonConverter for task local-console-sink-0 using the worker config (org.apache.kafka.connect.runtime.Worker:537)
+[2024-08-12 15:29:17,329] INFO JsonConverterConfig values: 
+	converter.type = value
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = true
+ (org.apache.kafka.connect.json.JsonConverterConfig:354)
+[2024-08-12 15:29:17,329] INFO Set up the value converter class org.apache.kafka.connect.json.JsonConverter for task local-console-sink-0 using the worker config (org.apache.kafka.connect.runtime.Worker:543)
+[2024-08-12 15:29:17,329] INFO Set up the header converter class org.apache.kafka.connect.storage.SimpleHeaderConverter for task local-console-sink-0 using the worker config (org.apache.kafka.connect.runtime.Worker:550)
+[2024-08-12 15:29:17,333] INFO Initializing: org.apache.kafka.connect.runtime.TransformationChain{} (org.apache.kafka.connect.runtime.Worker:632)
+[2024-08-12 15:29:17,334] INFO SinkConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	topics = [mssql_test]
+	topics.regex = 
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SinkConnectorConfig:354)
+[2024-08-12 15:29:17,334] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = org.apache.kafka.connect.file.FileStreamSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = local-console-sink
+	predicates = []
+	tasks.max = 1
+	topics = [mssql_test]
+	topics.regex = 
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-12 15:29:17,347] INFO ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = connector-consumer-local-console-sink-0
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = connect-local-console-sink
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+ (org.apache.kafka.clients.consumer.ConsumerConfig:354)
+[2024-08-12 15:29:17,397] WARN The configuration 'metrics.context.connect.kafka.cluster.id' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig:362)
+[2024-08-12 15:29:17,397] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-12 15:29:17,398] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-12 15:29:17,398] INFO Kafka startTimeMs: 1723463957397 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-12 15:29:17,408] INFO Created connector local-console-sink (org.apache.kafka.connect.cli.ConnectStandalone:112)
+[2024-08-12 15:29:17,410] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Subscribed to topic(s): mssql_test (org.apache.kafka.clients.consumer.KafkaConsumer:965)
+[2024-08-12 15:29:17,412] INFO WorkerSinkTask{id=local-console-sink-0} Sink task finished initialization and start (org.apache.kafka.connect.runtime.WorkerSinkTask:303)
+[2024-08-12 15:29:17,431] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.clients.Metadata:279)
+[2024-08-12 15:29:17,432] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Discovered group coordinator COMP432.TAFTA.LOCAL:9092 (id: 2147483647 rack: null) (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:815)
+[2024-08-12 15:29:17,435] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] (Re-)joining group (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:553)
+[2024-08-12 15:29:17,448] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:456)
+[2024-08-12 15:29:17,448] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] (Re-)joining group (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:553)
+[2024-08-12 15:29:17,455] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Finished assignment for group at generation 3: {connector-consumer-local-console-sink-0-0d2878a3-d422-447a-a3e1-6aff6575d1db=Assignment(partitions=[mssql_test-0])} (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:627)
+[2024-08-12 15:29:17,459] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Successfully joined group with generation 3 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:504)
+[2024-08-12 15:29:17,461] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Notifying assignor about the new Assignment(partitions=[mssql_test-0]) (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:276)
+[2024-08-12 15:29:17,467] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Adding newly assigned partitions: mssql_test-0 (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:288)
+[2024-08-12 15:29:17,477] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Setting offset for partition mssql_test-0 to the committed offset FetchPosition{offset=106, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[COMP432.TAFTA.LOCAL:9092 (id: 0 rack: null)], epoch=0}} (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:815)
+[2024-08-12 15:49:21,767] INFO Kafka Connect standalone worker initializing ... (org.apache.kafka.connect.cli.ConnectStandalone:69)
+[2024-08-12 15:49:21,774] INFO WorkerInfo values: 
+	jvm.args = -Xms256M, -Xmx2G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=20, -XX:InitiatingHeapOccupancyPercent=35, -XX:+ExplicitGCInvokesConcurrent, -XX:MaxInlineLevel=15, -Djava.awt.headless=true, -Dcom.sun.management.jmxremote, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -Dkafka.logs.dir=/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../logs, -Dlog4j.configuration=file:./bin/../config/connect-log4j.properties
+	jvm.spec = Ubuntu, OpenJDK 64-Bit Server VM, 11.0.24, 11.0.24+8-post-Ubuntu-1ubuntu322.04
+	jvm.classpath = /path/to/kafka/libs/*:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/activation-1.1.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/commons-cli-1.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-api-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-file-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-json-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-scala_2.13-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jdbc-plugin:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-client-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-common-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-server-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-scala_2.13-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0-sources.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/log4j-1.2.17.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/paranamer-2.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/reflections-0.9.12.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-collection-compat_2.13-2.1.6.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-library-2.13.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-reflect-2.13.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar
+	os.spec = Linux, amd64, 5.15.153.1-microsoft-standard-WSL2
+	os.vcpus = 12
+ (org.apache.kafka.connect.runtime.WorkerInfo:71)
+[2024-08-12 15:49:21,778] INFO Scanning for plugin classes. This might take a moment ... (org.apache.kafka.connect.cli.ConnectStandalone:78)
+[2024-08-12 15:49:21,803] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:21,910] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:21,911] INFO Added plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:21,911] INFO Added plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:21,912] INFO Added plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:21,914] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:21,945] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:21,945] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:22,013] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:22,019] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:22,090] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:22,090] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:22,091] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:22,092] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:22,335] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:22,370] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:22,993] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,029] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,063] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,063] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,108] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,109] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,143] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,144] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,170] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,171] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,232] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,233] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,350] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,355] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,372] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,373] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,389] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,389] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,429] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,432] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,632] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,632] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,661] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:23,661] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:23,900] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:26,292] INFO Registered loader: jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69 (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:26,293] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,293] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,293] INFO Added plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,294] INFO Added plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,294] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,294] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,294] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,295] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,295] INFO Added plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,295] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,295] INFO Added plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,296] INFO Added plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,296] INFO Added plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,296] INFO Added plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,296] INFO Added plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,297] INFO Added plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,297] INFO Added plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,297] INFO Added plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,297] INFO Added plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,298] INFO Added plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,298] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,298] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,299] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,299] INFO Added plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,299] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,300] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,300] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,300] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,301] INFO Added plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,301] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,301] INFO Added plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,301] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,302] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,302] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,302] INFO Added plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,303] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,303] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,304] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,304] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,304] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,305] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,305] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,305] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,305] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,306] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,306] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,306] INFO Added plugin 'org.apache.kafka.common.config.provider.FileConfigProvider' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,307] INFO Added plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:26,308] INFO Added aliases 'JdbcSinkConnector' and 'JdbcSink' to plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,308] INFO Added aliases 'JdbcSourceConnector' and 'JdbcSource' to plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,309] INFO Added aliases 'FileStreamSinkConnector' and 'FileStreamSink' to plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,309] INFO Added aliases 'FileStreamSourceConnector' and 'FileStreamSource' to plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,309] INFO Added aliases 'MirrorCheckpointConnector' and 'MirrorCheckpoint' to plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,310] INFO Added aliases 'MirrorHeartbeatConnector' and 'MirrorHeartbeat' to plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,310] INFO Added aliases 'MirrorSourceConnector' and 'MirrorSource' to plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,311] INFO Added aliases 'MockConnector' and 'Mock' to plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,311] INFO Added aliases 'MockSinkConnector' and 'MockSink' to plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,312] INFO Added aliases 'MockSourceConnector' and 'MockSource' to plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,312] INFO Added aliases 'SchemaSourceConnector' and 'SchemaSource' to plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,312] INFO Added aliases 'VerifiableSinkConnector' and 'VerifiableSink' to plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,313] INFO Added aliases 'VerifiableSourceConnector' and 'VerifiableSource' to plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,313] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,313] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,314] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,314] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,315] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,315] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,315] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,315] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,316] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,316] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,316] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,316] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,317] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,317] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,317] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,317] INFO Added alias 'SimpleHeaderConverter' to plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,318] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,318] INFO Added aliases 'PredicatedTransformation' and 'Predicated' to plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,318] INFO Added alias 'Filter' to plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,319] INFO Added alias 'RegexRouter' to plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,319] INFO Added alias 'TimestampRouter' to plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,319] INFO Added alias 'ValueToKey' to plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,320] INFO Added alias 'HasHeaderKey' to plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,320] INFO Added alias 'RecordIsTombstone' to plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,320] INFO Added alias 'TopicNameMatches' to plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,320] INFO Added alias 'BasicAuthSecurityRestExtension' to plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:49:26,321] INFO Added aliases 'AllConnectorClientConfigOverridePolicy' and 'All' to plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,321] INFO Added aliases 'NoneConnectorClientConfigOverridePolicy' and 'None' to plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,321] INFO Added aliases 'PrincipalConnectorClientConfigOverridePolicy' and 'Principal' to plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:49:26,362] INFO StandaloneConfig values: 
+	access.control.allow.methods = 
+	access.control.allow.origin = 
+	admin.listeners = null
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	config.providers = []
+	connector.client.config.override.policy = None
+	header.converter = class org.apache.kafka.connect.storage.SimpleHeaderConverter
+	internal.key.converter = class org.apache.kafka.connect.json.JsonConverter
+	internal.value.converter = class org.apache.kafka.connect.json.JsonConverter
+	key.converter = class org.apache.kafka.connect.json.JsonConverter
+	listeners = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	offset.flush.interval.ms = 10000
+	offset.flush.timeout.ms = 5000
+	offset.storage.file.filename = /tmp/connect.offsets
+	plugin.path = [/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin]
+	response.http.headers.config = 
+	rest.advertised.host.name = null
+	rest.advertised.listener = null
+	rest.advertised.port = null
+	rest.extension.classes = []
+	rest.host.name = null
+	rest.port = 8083
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	task.shutdown.graceful.timeout.ms = 5000
+	topic.creation.enable = true
+	topic.tracking.allow.reset = true
+	topic.tracking.enable = true
+	value.converter = class org.apache.kafka.connect.json.JsonConverter
+ (org.apache.kafka.connect.runtime.standalone.StandaloneConfig:354)
+[2024-08-12 15:49:26,363] INFO Creating Kafka admin client (org.apache.kafka.connect.util.ConnectUtils:49)
+[2024-08-12 15:49:26,368] INFO AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+ (org.apache.kafka.clients.admin.AdminClientConfig:354)
+[2024-08-12 15:49:26,485] WARN The configuration 'offset.flush.interval.ms' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,485] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,485] WARN The configuration 'offset.storage.file.filename' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,486] WARN The configuration 'value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,486] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,486] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,487] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:49:26,488] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-12 15:49:26,488] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-12 15:49:26,488] INFO Kafka startTimeMs: 1723465166487 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-12 15:49:26,858] INFO Kafka cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.connect.util.ConnectUtils:65)
+[2024-08-12 15:49:26,877] INFO Logging initialized @5582ms to org.eclipse.jetty.util.log.Slf4jLog (org.eclipse.jetty.util.log:169)
+[2024-08-12 15:49:26,932] INFO Added connector for http://:8083 (org.apache.kafka.connect.runtime.rest.RestServer:132)
+[2024-08-12 15:49:26,932] INFO Initializing REST server (org.apache.kafka.connect.runtime.rest.RestServer:204)
+[2024-08-12 15:49:26,941] INFO jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 11.0.24+8-post-Ubuntu-1ubuntu322.04 (org.eclipse.jetty.server.Server:359)
+[2024-08-12 15:49:26,955] ERROR Stopping due to error (org.apache.kafka.connect.cli.ConnectStandalone:130)
+org.apache.kafka.connect.errors.ConnectException: Unable to initialize REST server
+	at org.apache.kafka.connect.runtime.rest.RestServer.initializeServer(RestServer.java:216)
+	at org.apache.kafka.connect.cli.ConnectStandalone.main(ConnectStandalone.java:87)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8083
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:307)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:231)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:385)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.apache.kafka.connect.runtime.rest.RestServer.initializeServer(RestServer.java:214)
+	... 1 more
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:459)
+	at java.base/sun.nio.ch.Net.bind(Net.java:448)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342)
+	... 8 more
+[2024-08-12 15:49:56,520] INFO Kafka Connect standalone worker initializing ... (org.apache.kafka.connect.cli.ConnectStandalone:69)
+[2024-08-12 15:49:56,526] INFO WorkerInfo values: 
+	jvm.args = -Xms256M, -Xmx2G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=20, -XX:InitiatingHeapOccupancyPercent=35, -XX:+ExplicitGCInvokesConcurrent, -XX:MaxInlineLevel=15, -Djava.awt.headless=true, -Dcom.sun.management.jmxremote, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -Dkafka.logs.dir=/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../logs, -Dlog4j.configuration=file:./bin/../config/connect-log4j.properties
+	jvm.spec = Ubuntu, OpenJDK 64-Bit Server VM, 11.0.24, 11.0.24+8-post-Ubuntu-1ubuntu322.04
+	jvm.classpath = /path/to/kafka/libs/*:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/activation-1.1.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/commons-cli-1.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-api-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-file-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-json-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jackson-module-scala_2.13-2.10.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jdbc-plugin:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-client-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-common-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jersey-server-2.28.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-scala_2.13-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0-sources.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/kafka_2.13-2.6.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/log4j-1.2.17.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/paranamer-2.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/reflections-0.9.12.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-collection-compat_2.13-2.1.6.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-library-2.13.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/scala-reflect-2.13.2.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar
+	os.spec = Linux, amd64, 5.15.153.1-microsoft-standard-WSL2
+	os.vcpus = 12
+ (org.apache.kafka.connect.runtime.WorkerInfo:71)
+[2024-08-12 15:49:56,530] INFO Scanning for plugin classes. This might take a moment ... (org.apache.kafka.connect.cli.ConnectStandalone:78)
+[2024-08-12 15:49:56,555] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:56,652] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/common-utils-6.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:56,653] INFO Added plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:56,653] INFO Added plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:56,653] INFO Added plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:56,656] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:56,684] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/connect-utils-0.1.11.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:56,685] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:56,749] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/jtds-1.3.1.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:56,754] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:56,814] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/kafka-connect-jdbc-10.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:56,814] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:56,815] INFO Added plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:49:56,816] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,053] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/mssql-jdbc-8.4.1.jre8.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,080] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,676] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ojdbc8-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,709] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,752] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ons-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,752] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,799] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/oraclepki-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,799] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,828] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/orai18n-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,829] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,860] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_cert-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,861] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:57,922] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/osdt_core-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:57,922] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,042] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/postgresql-42.2.10.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:58,047] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,061] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/simplefan-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:58,062] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,077] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/slf4j-api-1.7.30.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:58,078] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,115] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/sqlite-jdbc-3.25.2.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:58,118] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,290] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/ucp-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:58,291] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,316] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xdb-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:49:58,316] INFO Loading plugin from: /mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:246)
+[2024-08-12 15:49:58,540] INFO Registered loader: PluginClassLoader{pluginLocation=file:/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin/xmlparserv2-19.7.0.0.jar} (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:50:01,086] INFO Registered loader: jdk.internal.loader.ClassLoaders$AppClassLoader@3d4eac69 (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:269)
+[2024-08-12 15:50:01,086] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,086] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,087] INFO Added plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,087] INFO Added plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,087] INFO Added plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,088] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,088] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,088] INFO Added plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,088] INFO Added plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,089] INFO Added plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,089] INFO Added plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,089] INFO Added plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,089] INFO Added plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,090] INFO Added plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,090] INFO Added plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,090] INFO Added plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,090] INFO Added plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,090] INFO Added plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,091] INFO Added plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,091] INFO Added plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,091] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,091] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,092] INFO Added plugin 'org.apache.kafka.connect.transforms.ReplaceField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,092] INFO Added plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,092] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,092] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,093] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,093] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,093] INFO Added plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,093] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,098] INFO Added plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,098] INFO Added plugin 'org.apache.kafka.connect.transforms.MaskField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,098] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,099] INFO Added plugin 'org.apache.kafka.connect.transforms.Cast$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,099] INFO Added plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,099] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,100] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,100] INFO Added plugin 'org.apache.kafka.connect.transforms.InsertField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,100] INFO Added plugin 'org.apache.kafka.connect.transforms.Flatten$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,100] INFO Added plugin 'org.apache.kafka.connect.transforms.SetSchemaMetadata$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,101] INFO Added plugin 'org.apache.kafka.connect.transforms.ExtractField$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,101] INFO Added plugin 'org.apache.kafka.connect.transforms.TimestampConverter$Value' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,101] INFO Added plugin 'org.apache.kafka.connect.transforms.HoistField$Key' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,101] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,101] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,102] INFO Added plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,102] INFO Added plugin 'org.apache.kafka.common.config.provider.FileConfigProvider' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,102] INFO Added plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:198)
+[2024-08-12 15:50:01,103] INFO Added aliases 'JdbcSinkConnector' and 'JdbcSink' to plugin 'io.confluent.connect.jdbc.JdbcSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,103] INFO Added aliases 'JdbcSourceConnector' and 'JdbcSource' to plugin 'io.confluent.connect.jdbc.JdbcSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,104] INFO Added aliases 'FileStreamSinkConnector' and 'FileStreamSink' to plugin 'org.apache.kafka.connect.file.FileStreamSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,104] INFO Added aliases 'FileStreamSourceConnector' and 'FileStreamSource' to plugin 'org.apache.kafka.connect.file.FileStreamSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,104] INFO Added aliases 'MirrorCheckpointConnector' and 'MirrorCheckpoint' to plugin 'org.apache.kafka.connect.mirror.MirrorCheckpointConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,105] INFO Added aliases 'MirrorHeartbeatConnector' and 'MirrorHeartbeat' to plugin 'org.apache.kafka.connect.mirror.MirrorHeartbeatConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,105] INFO Added aliases 'MirrorSourceConnector' and 'MirrorSource' to plugin 'org.apache.kafka.connect.mirror.MirrorSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,105] INFO Added aliases 'MockConnector' and 'Mock' to plugin 'org.apache.kafka.connect.tools.MockConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,106] INFO Added aliases 'MockSinkConnector' and 'MockSink' to plugin 'org.apache.kafka.connect.tools.MockSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,106] INFO Added aliases 'MockSourceConnector' and 'MockSource' to plugin 'org.apache.kafka.connect.tools.MockSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,106] INFO Added aliases 'SchemaSourceConnector' and 'SchemaSource' to plugin 'org.apache.kafka.connect.tools.SchemaSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,106] INFO Added aliases 'VerifiableSinkConnector' and 'VerifiableSink' to plugin 'org.apache.kafka.connect.tools.VerifiableSinkConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,107] INFO Added aliases 'VerifiableSourceConnector' and 'VerifiableSource' to plugin 'org.apache.kafka.connect.tools.VerifiableSourceConnector' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,107] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,107] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,108] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,108] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,108] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,109] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,109] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,109] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,109] INFO Added aliases 'ByteArrayConverter' and 'ByteArray' to plugin 'org.apache.kafka.connect.converters.ByteArrayConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,110] INFO Added aliases 'DoubleConverter' and 'Double' to plugin 'org.apache.kafka.connect.converters.DoubleConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,110] INFO Added aliases 'FloatConverter' and 'Float' to plugin 'org.apache.kafka.connect.converters.FloatConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,110] INFO Added aliases 'IntegerConverter' and 'Integer' to plugin 'org.apache.kafka.connect.converters.IntegerConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,110] INFO Added aliases 'LongConverter' and 'Long' to plugin 'org.apache.kafka.connect.converters.LongConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,110] INFO Added aliases 'ShortConverter' and 'Short' to plugin 'org.apache.kafka.connect.converters.ShortConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,111] INFO Added aliases 'JsonConverter' and 'Json' to plugin 'org.apache.kafka.connect.json.JsonConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,111] INFO Added alias 'SimpleHeaderConverter' to plugin 'org.apache.kafka.connect.storage.SimpleHeaderConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,111] INFO Added aliases 'StringConverter' and 'String' to plugin 'org.apache.kafka.connect.storage.StringConverter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,112] INFO Added aliases 'PredicatedTransformation' and 'Predicated' to plugin 'org.apache.kafka.connect.runtime.PredicatedTransformation' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,112] INFO Added alias 'Filter' to plugin 'org.apache.kafka.connect.transforms.Filter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,112] INFO Added alias 'RegexRouter' to plugin 'org.apache.kafka.connect.transforms.RegexRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,113] INFO Added alias 'TimestampRouter' to plugin 'org.apache.kafka.connect.transforms.TimestampRouter' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,113] INFO Added alias 'ValueToKey' to plugin 'org.apache.kafka.connect.transforms.ValueToKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,113] INFO Added alias 'HasHeaderKey' to plugin 'org.apache.kafka.connect.transforms.predicates.HasHeaderKey' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,113] INFO Added alias 'RecordIsTombstone' to plugin 'org.apache.kafka.connect.transforms.predicates.RecordIsTombstone' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,114] INFO Added alias 'TopicNameMatches' to plugin 'org.apache.kafka.connect.transforms.predicates.TopicNameMatches' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,114] INFO Added alias 'BasicAuthSecurityRestExtension' to plugin 'org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:427)
+[2024-08-12 15:50:01,114] INFO Added aliases 'AllConnectorClientConfigOverridePolicy' and 'All' to plugin 'org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,114] INFO Added aliases 'NoneConnectorClientConfigOverridePolicy' and 'None' to plugin 'org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,115] INFO Added aliases 'PrincipalConnectorClientConfigOverridePolicy' and 'Principal' to plugin 'org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy' (org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader:430)
+[2024-08-12 15:50:01,148] INFO StandaloneConfig values: 
+	access.control.allow.methods = 
+	access.control.allow.origin = 
+	admin.listeners = null
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	config.providers = []
+	connector.client.config.override.policy = None
+	header.converter = class org.apache.kafka.connect.storage.SimpleHeaderConverter
+	internal.key.converter = class org.apache.kafka.connect.json.JsonConverter
+	internal.value.converter = class org.apache.kafka.connect.json.JsonConverter
+	key.converter = class org.apache.kafka.connect.json.JsonConverter
+	listeners = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	offset.flush.interval.ms = 10000
+	offset.flush.timeout.ms = 5000
+	offset.storage.file.filename = /tmp/connect.offsets
+	plugin.path = [/mnt/e/Tafta/Majid/Education/AWS/Data_Engineering_with_AWS_Session_13/kafka-connect-jdbc-main/kafka_2.13-2.6.0/libs/jdbc-plugin]
+	response.http.headers.config = 
+	rest.advertised.host.name = null
+	rest.advertised.listener = null
+	rest.advertised.port = null
+	rest.extension.classes = []
+	rest.host.name = null
+	rest.port = 8083
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	task.shutdown.graceful.timeout.ms = 5000
+	topic.creation.enable = true
+	topic.tracking.allow.reset = true
+	topic.tracking.enable = true
+	value.converter = class org.apache.kafka.connect.json.JsonConverter
+ (org.apache.kafka.connect.runtime.standalone.StandaloneConfig:354)
+[2024-08-12 15:50:01,149] INFO Creating Kafka admin client (org.apache.kafka.connect.util.ConnectUtils:49)
+[2024-08-12 15:50:01,153] INFO AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+ (org.apache.kafka.clients.admin.AdminClientConfig:354)
+[2024-08-12 15:50:01,246] WARN The configuration 'offset.flush.interval.ms' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,246] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,246] WARN The configuration 'offset.storage.file.filename' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,247] WARN The configuration 'value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,247] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,247] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,248] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.admin.AdminClientConfig:362)
+[2024-08-12 15:50:01,249] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser:117)
+[2024-08-12 15:50:01,249] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser:118)
+[2024-08-12 15:50:01,249] INFO Kafka startTimeMs: 1723465201248 (org.apache.kafka.common.utils.AppInfoParser:119)
+[2024-08-12 15:50:01,606] INFO Kafka cluster ID: eMVKKnfhSVCf3zZltnHWeA (org.apache.kafka.connect.util.ConnectUtils:65)
+[2024-08-12 15:50:01,644] INFO Logging initialized @5565ms to org.eclipse.jetty.util.log.Slf4jLog (org.eclipse.jetty.util.log:169)
+[2024-08-12 15:50:01,720] INFO Added connector for http://:8083 (org.apache.kafka.connect.runtime.rest.RestServer:132)
+[2024-08-12 15:50:01,720] INFO Initializing REST server (org.apache.kafka.connect.runtime.rest.RestServer:204)
+[2024-08-12 15:50:01,731] INFO jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 11.0.24+8-post-Ubuntu-1ubuntu322.04 (org.eclipse.jetty.server.Server:359)
+[2024-08-12 15:50:01,751] ERROR Stopping due to error (org.apache.kafka.connect.cli.ConnectStandalone:130)
+org.apache.kafka.connect.errors.ConnectException: Unable to initialize REST server
+	at org.apache.kafka.connect.runtime.rest.RestServer.initializeServer(RestServer.java:216)
+	at org.apache.kafka.connect.cli.ConnectStandalone.main(ConnectStandalone.java:87)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8083
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:307)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:231)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:385)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.apache.kafka.connect.runtime.rest.RestServer.initializeServer(RestServer.java:214)
+	... 1 more
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:459)
+	at java.base/sun.nio.ch.Net.bind(Net.java:448)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342)
+	... 8 more
+[2024-08-12 15:53:35,512] INFO Kafka Connect stopping (org.apache.kafka.connect.runtime.Connect:67)
+[2024-08-12 15:53:35,518] INFO Stopping REST server (org.apache.kafka.connect.runtime.rest.RestServer:327)
+[2024-08-12 15:53:35,529] INFO Stopped http_8083@4e93dcb9{HTTP/1.1,[http/1.1]}{0.0.0.0:8083} (org.eclipse.jetty.server.AbstractConnector:380)
+[2024-08-12 15:53:35,530] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:158)
+[2024-08-12 15:53:35,532] INFO REST server stopped (org.apache.kafka.connect.runtime.rest.RestServer:344)
+[2024-08-12 15:53:35,532] INFO Herder stopping (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:102)
+[2024-08-12 15:53:35,533] INFO Stopping task local-console-sink-0 (org.apache.kafka.connect.runtime.Worker:836)
+[2024-08-12 15:53:35,534] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Revoke previously assigned partitions mssql_test-0 (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:307)
+[2024-08-12 15:53:35,534] INFO [Consumer clientId=connector-consumer-local-console-sink-0, groupId=connect-local-console-sink] Member connector-consumer-local-console-sink-0-0d2878a3-d422-447a-a3e1-6aff6575d1db sending LeaveGroup request to coordinator COMP432.TAFTA.LOCAL:9092 (id: 2147483647 rack: null) due to the consumer is being closed (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1005)
+[2024-08-12 15:53:35,546] INFO Stopping connector local-console-sink (org.apache.kafka.connect.runtime.Worker:387)
+[2024-08-12 15:53:35,547] INFO Scheduled shutdown for WorkerConnector{id=local-console-sink} (org.apache.kafka.connect.runtime.WorkerConnector:249)
+[2024-08-12 15:53:35,547] INFO Completed shutdown for WorkerConnector{id=local-console-sink} (org.apache.kafka.connect.runtime.WorkerConnector:269)
+[2024-08-12 15:53:35,548] INFO Worker stopping (org.apache.kafka.connect.runtime.Worker:209)
+[2024-08-12 15:53:35,549] INFO Stopped FileOffsetBackingStore (org.apache.kafka.connect.storage.FileOffsetBackingStore:66)
+[2024-08-12 15:53:35,549] INFO Worker stopped (org.apache.kafka.connect.runtime.Worker:230)
+[2024-08-12 15:53:35,550] INFO Herder stopped (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:120)
+[2024-08-12 15:53:35,550] INFO Kafka Connect stopped (org.apache.kafka.connect.runtime.Connect:72)

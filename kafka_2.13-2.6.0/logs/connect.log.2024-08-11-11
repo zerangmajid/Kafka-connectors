@@ -1,0 +1,75 @@
+[2024-08-11 11:15:02,349] INFO Stopping connector postgres-connector (org.apache.kafka.connect.runtime.Worker:387)
+[2024-08-11 11:15:02,360] INFO Scheduled shutdown for WorkerConnector{id=postgres-connector} (org.apache.kafka.connect.runtime.WorkerConnector:249)
+[2024-08-11 11:15:02,361] INFO Stopping table monitoring thread (io.confluent.connect.jdbc.JdbcSourceConnector:174)
+[2024-08-11 11:15:02,362] INFO Shutting down thread monitoring tables. (io.confluent.connect.jdbc.source.TableMonitorThread:134)
+[2024-08-11 11:15:02,363] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-11 11:15:02,367] INFO Completed shutdown for WorkerConnector{id=postgres-connector} (org.apache.kafka.connect.runtime.WorkerConnector:269)
+[2024-08-11 11:15:02,374] INFO Creating connector postgres-connector of type io.confluent.connect.jdbc.JdbcSourceConnector (org.apache.kafka.connect.runtime.Worker:274)
+[2024-08-11 11:15:02,376] INFO SourceConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = postgres-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.SourceConnectorConfig:354)
+[2024-08-11 11:15:02,378] INFO EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = io.confluent.connect.jdbc.JdbcSourceConnector
+	errors.log.enable = true
+	errors.log.include.messages = true
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = all
+	header.converter = null
+	key.converter = null
+	name = postgres-connector
+	predicates = []
+	tasks.max = 1
+	topic.creation.groups = []
+	transforms = []
+	value.converter = null
+ (org.apache.kafka.connect.runtime.ConnectorConfig$EnrichedConnectorConfig:354)
+[2024-08-11 11:15:02,380] INFO Instantiated connector postgres-connector with version 10.0.0 of type class io.confluent.connect.jdbc.JdbcSourceConnector (org.apache.kafka.connect.runtime.Worker:284)
+[2024-08-11 11:15:02,380] INFO Finished creating connector postgres-connector (org.apache.kafka.connect.runtime.Worker:310)
+[2024-08-11 11:15:02,381] INFO Starting JDBC Source Connector (io.confluent.connect.jdbc.JdbcSourceConnector:69)
+[2024-08-11 11:15:02,384] INFO JdbcSourceConnectorConfig values: 
+	batch.max.rows = 100
+	catalog.pattern = null
+	connection.attempts = 3
+	connection.backoff.ms = 10000
+	connection.password = [hidden]
+	connection.url = jdbc:postgresql://127.0.0.1:5432/test_db?prepareThreshold=0
+	connection.user = postgres
+	db.timezone = UTC
+	dialect.name = PostgreSqlDatabaseDialect
+	incrementing.column.name = id
+	mode = incrementing
+	numeric.mapping = none
+	numeric.precision.mapping = false
+	poll.interval.ms = 5000
+	query = 
+	query.suffix = 
+	quote.sql.identifiers = ALWAYS
+	schema.pattern = calculator
+	table.blacklist = []
+	table.poll.interval.ms = 60000
+	table.types = [TABLE]
+	table.whitelist = [test]
+	timestamp.column.name = []
+	timestamp.delay.interval.ms = 0
+	timestamp.initial = null
+	topic.prefix = postgres_
+	validate.non.null = true
+ (io.confluent.connect.jdbc.source.JdbcSourceConnectorConfig:354)
+[2024-08-11 11:15:02,386] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-11 11:15:02,402] INFO Starting thread to monitor tables. (io.confluent.connect.jdbc.source.TableMonitorThread:73)

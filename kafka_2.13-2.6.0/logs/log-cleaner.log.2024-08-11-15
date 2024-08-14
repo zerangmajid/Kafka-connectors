@@ -1,0 +1,4 @@
+[2024-08-11 15:24:50,164] INFO Starting the log cleaner (kafka.log.LogCleaner)
+[2024-08-11 15:24:50,202] INFO [kafka-log-cleaner-thread-0]: Starting (kafka.log.LogCleaner)
+[2024-08-11 15:51:28,520] INFO The cleaning for partition mssql_test-0 is aborted and paused (kafka.log.LogCleaner)
+[2024-08-11 15:51:28,520] INFO The cleaning for partition mssql_test-0 is aborted (kafka.log.LogCleaner)

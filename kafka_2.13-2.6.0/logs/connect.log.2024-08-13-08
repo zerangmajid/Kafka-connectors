@@ -1,0 +1,802 @@
+[2024-08-13 09:12:37,081] WARN Write of 1 records failed, remainingRetries=10 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:50)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:37,094] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:37,098] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:37,099] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:40,100] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:40,122] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:40,131] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:40,135] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:40,142] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:40,145] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:40,148] WARN Write of 1 records failed, remainingRetries=9 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:40,148] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:40,149] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:40,149] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:42,954] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:42,963] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:42,970] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:42,973] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:42,978] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:42,980] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:42,982] WARN Write of 1 records failed, remainingRetries=8 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:42,983] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:42,983] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:42,983] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:45,984] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:45,991] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:45,996] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:45,999] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:46,004] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:46,005] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:46,008] WARN Write of 1 records failed, remainingRetries=7 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:46,008] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:46,009] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:46,009] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:49,011] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:49,022] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:49,033] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:49,037] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:49,042] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:49,044] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:49,047] WARN Write of 1 records failed, remainingRetries=6 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:49,047] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:49,048] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:49,049] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:52,050] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:52,058] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:52,065] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:52,067] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:52,073] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:52,075] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:52,078] WARN Write of 1 records failed, remainingRetries=5 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:52,078] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:52,078] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:52,079] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:52,985] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:52,991] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:52,997] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:52,999] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:53,004] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:53,006] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:53,008] WARN Write of 1 records failed, remainingRetries=4 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:53,009] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:53,009] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:53,010] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:56,012] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:56,021] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:56,027] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:56,031] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:56,035] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:56,037] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:56,039] WARN Write of 1 records failed, remainingRetries=3 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:56,039] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:56,040] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:56,040] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:12:59,040] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:12:59,049] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:12:59,058] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:12:59,060] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:12:59,064] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:12:59,066] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:12:59,069] WARN Write of 1 records failed, remainingRetries=2 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:12:59,070] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:12:59,070] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:12:59,071] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:13:02,073] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:13:02,079] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:13:02,085] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:13:02,088] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:13:02,093] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:13:02,095] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:13:02,098] WARN Write of 1 records failed, remainingRetries=1 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:13:02,098] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:13:02,099] INFO Initializing writer using SQL dialect: PostgreSqlDatabaseDialect (io.confluent.connect.jdbc.sink.JdbcSinkTask:57)
+[2024-08-13 09:13:02,099] ERROR WorkerSinkTask{id=postgres-sink-connector-0} RetriableException from SinkTask: (org.apache.kafka.connect.runtime.WorkerSinkTask:579)
+org.apache.kafka.connect.errors.RetriableException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:95)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:13:03,012] INFO Attempting to open connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:82)
+[2024-08-13 09:13:03,023] INFO JdbcDbWriter Connected (io.confluent.connect.jdbc.sink.JdbcDbWriter:56)
+[2024-08-13 09:13:03,029] INFO Checking PostgreSql dialect for existence of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:563)
+[2024-08-13 09:13:03,032] INFO Using PostgreSql dialect TABLE "calculator"."test" present (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:571)
+[2024-08-13 09:13:03,037] INFO Checking PostgreSql dialect for type of TABLE "calculator"."test" (io.confluent.connect.jdbc.dialect.PostgreSqlDatabaseDialect:833)
+[2024-08-13 09:13:03,039] INFO Setting metadata for table "calculator"."test" to Table{name='"calculator"."test"', type=TABLE columns=[Column{'inserted_at', isPrimaryKey=false, allowsNull=true, sqlType=timestamptz}, Column{'value', isPrimaryKey=false, allowsNull=false, sqlType=varchar}, Column{'date', isPrimaryKey=false, allowsNull=false, sqlType=timestamptz}, Column{'id', isPrimaryKey=true, allowsNull=false, sqlType=serial}]} (io.confluent.connect.jdbc.util.TableDefinitions:64)
+[2024-08-13 09:13:03,042] WARN Write of 1 records failed, remainingRetries=0 (io.confluent.connect.jdbc.sink.JdbcSinkTask:76)
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:153)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2246)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:509)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:850)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:873)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.executeUpdates(BufferedRecords.java:219)
+	at io.confluent.connect.jdbc.sink.BufferedRecords.flush(BufferedRecords.java:185)
+	at io.confluent.connect.jdbc.sink.JdbcDbWriter.write(JdbcDbWriter.java:79)
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:74)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	... 19 more
+[2024-08-13 09:13:03,043] ERROR WorkerSinkTask{id=postgres-sink-connector-0} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted. Error: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+ (org.apache.kafka.connect.runtime.WorkerSinkTask:586)
+org.apache.kafka.connect.errors.ConnectException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:89)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:13:03,044] ERROR WorkerSinkTask{id=postgres-sink-connector-0} Task threw an uncaught and unrecoverable exception (org.apache.kafka.connect.runtime.WorkerTask:187)
+org.apache.kafka.connect.errors.ConnectException: Exiting WorkerSinkTask due to unrecoverable exception.
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:588)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.poll(WorkerSinkTask.java:323)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.iteration(WorkerSinkTask.java:226)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.execute(WorkerSinkTask.java:198)
+	at org.apache.kafka.connect.runtime.WorkerTask.doRun(WorkerTask.java:185)
+	at org.apache.kafka.connect.runtime.WorkerTask.run(WorkerTask.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.kafka.connect.errors.ConnectException: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:89)
+	at org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages(WorkerSinkTask.java:560)
+	... 10 more
+Caused by: java.sql.SQLException: Exception chain:
+java.sql.BatchUpdateException: Batch entry 0 INSERT INTO "calculator"."test" ("id","value","date") VALUES (300116,'my data bb','2024-08-13 09:12:35.897+00') was aborted: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment  Call getNextException to see other errors in the batch.
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+org.postgresql.util.PSQLException: ERROR: record "new" has no field "insertion_time_difference"
+  Where: PL/pgSQL function calculate_time_difference() line 4 at assignment
+
+	at io.confluent.connect.jdbc.sink.JdbcSinkTask.put(JdbcSinkTask.java:86)
+	... 11 more
+[2024-08-13 09:13:03,045] ERROR WorkerSinkTask{id=postgres-sink-connector-0} Task is being killed and will not recover until manually restarted (org.apache.kafka.connect.runtime.WorkerTask:188)
+[2024-08-13 09:13:03,045] INFO Stopping task (io.confluent.connect.jdbc.sink.JdbcSinkTask:107)
+[2024-08-13 09:13:03,045] INFO Closing connection #1 to PostgreSql (io.confluent.connect.jdbc.util.CachedConnectionProvider:108)
+[2024-08-13 09:13:03,047] INFO [Consumer clientId=connector-consumer-postgres-sink-connector-0, groupId=connect-postgres-sink-connector] Revoke previously assigned partitions mssql_test-0 (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:307)
+[2024-08-13 09:13:03,047] INFO [Consumer clientId=connector-consumer-postgres-sink-connector-0, groupId=connect-postgres-sink-connector] Member connector-consumer-postgres-sink-connector-0-f402374b-75a1-433d-b6e5-ff1f1dfd9a06 sending LeaveGroup request to coordinator COMP432.TAFTA.LOCAL:9092 (id: 2147483647 rack: null) due to the consumer is being closed (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1005)
+[2024-08-13 09:13:15,158] INFO Kafka Connect stopping (org.apache.kafka.connect.runtime.Connect:67)
+[2024-08-13 09:13:15,161] INFO Stopping REST server (org.apache.kafka.connect.runtime.rest.RestServer:327)
+[2024-08-13 09:13:15,181] INFO Stopped http_8086@48bfb884{HTTP/1.1,[http/1.1]}{0.0.0.0:8086} (org.eclipse.jetty.server.AbstractConnector:380)
+[2024-08-13 09:13:15,183] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:158)
+[2024-08-13 09:13:15,185] INFO REST server stopped (org.apache.kafka.connect.runtime.rest.RestServer:344)
+[2024-08-13 09:13:15,186] INFO Herder stopping (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:102)
+[2024-08-13 09:13:15,187] INFO Stopping task postgres-sink-connector-0 (org.apache.kafka.connect.runtime.Worker:836)
+[2024-08-13 09:13:15,192] INFO Stopping connector postgres-sink-connector (org.apache.kafka.connect.runtime.Worker:387)
+[2024-08-13 09:13:15,192] INFO Scheduled shutdown for WorkerConnector{id=postgres-sink-connector} (org.apache.kafka.connect.runtime.WorkerConnector:249)
+[2024-08-13 09:13:15,193] INFO Completed shutdown for WorkerConnector{id=postgres-sink-connector} (org.apache.kafka.connect.runtime.WorkerConnector:269)
+[2024-08-13 09:13:15,194] INFO Worker stopping (org.apache.kafka.connect.runtime.Worker:209)
+[2024-08-13 09:13:15,194] INFO Stopped FileOffsetBackingStore (org.apache.kafka.connect.storage.FileOffsetBackingStore:66)
+[2024-08-13 09:13:15,195] INFO Worker stopped (org.apache.kafka.connect.runtime.Worker:230)
+[2024-08-13 09:13:15,197] INFO Herder stopped (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:120)
+[2024-08-13 09:13:15,197] INFO Kafka Connect stopped (org.apache.kafka.connect.runtime.Connect:72)
